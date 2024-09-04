@@ -1,0 +1,59 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules folder (if you're using Node.js)
+node_modules/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore build files
+dist/
+build/
+out/
+
+# Ignore cache files
+*.cache
+*.tmp
+*.swp
+
+# Ignore dependency directories
+coverage/
+*.bak
+
+# Ignore compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Ignore compiled CSS/JS files
+*.min.css
+*.min.js
+
+# Ignore configuration files that may contain sensitive information
+*.env
+.env.local
+
+# Ignore public keys
+*.pem
+
+# Ignore all hidden files and folders except `.gitignore`
+.*
+!.gitignore

@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #fff;
+    color: #333;
+    /* Added padding-bottom to create space for the footer */
+    padding-bottom: 60px;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #007BFF;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.intro img {
+    border-radius: 10px;
+    max-width: 200px;
+    margin-right: 40px;
+}
+
+.intro-text {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.intro-text p {
+    font-family: 'Roboto', sans-serif; /* Adjusted for better readability */
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px 40px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.publication-item {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid #c6c8ca;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.publication-item img {
+    max-width: 250px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.publication-text {
+    max-width: 70%;
+}
+
+.publication-text h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.publication-text p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.publication-link, .github-link {
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.music img {
+    max-width: 500px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.social-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
