@@ -99,7 +99,7 @@ section {
     margin: 5px 0;
 }
 
-.publication-link, .github-link {
+.publication-link, .github-link, .project-page, .huggingface-link {
     font-size: 14px;
     margin-right: 10px;
     text-decoration: none;
