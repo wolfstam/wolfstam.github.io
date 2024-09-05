@@ -2,11 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #fff;
     color: #333;
-    /* Added padding-bottom to create space for the footer */
     padding-bottom: 60px;
 }
 
@@ -59,7 +58,7 @@ nav ul li a.active {
 }
 
 .intro-text p {
-    font-family: 'Roboto', sans-serif; /* Adjusted for better readability */
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin: 5px 0;
 }
@@ -112,7 +111,6 @@ section {
     border-radius: 5px;
 }
 
-
 footer {
     background-color: #f4f4f4;
     color: #333;
@@ -131,4 +129,36 @@ footer {
     position: absolute;
     top: 10px;
     right: 10px;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .publication-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .publication-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .publication-text {
+        max-width: 100%;
+    }
 }
